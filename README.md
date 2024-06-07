@@ -1,4 +1,4 @@
-![image](https://github.com/MoraMaik/Sopa_de_Letras_API-lados/assets/158982751/c87548f0-8344-45a5-990f-b84661798197)# Sopa-de-Letras---API-lados
+# Sopa-de-Letras---API-lados
 API-lados un grupo conformado por dos Ingenieros Civiles y un Ingeniero Químico presentan el desarrollo de su proyecto final de PdC con la fin de explicar el Programa trabajado durante el semestre 2024-1, el cual esta inspirado en crear Una Sopa de Letras
 _______________________
 1. Estructura del repositorio
