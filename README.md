@@ -60,6 +60,10 @@ Caracteristicas extra:
 
 _______________________
 
+# Instalacion
+
+git clone https://github.com/MoraMaik/Sopa_de_Letras_API-lados.git
+
 
 
 
