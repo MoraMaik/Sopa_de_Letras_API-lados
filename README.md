@@ -7,6 +7,7 @@ sopa_de_letras/
 
 
 │   ├── 01_introduccion
+
 │   ├── 02_instalacion     Sigue estos pasos para instalar y ejecutar el proyecto.   (MICHAEL)
 
 │   ├── 03_estructura         (CAROLINA)
@@ -35,6 +36,8 @@ Este proyecto es una implementación de una Sopa de Letras en Python, creada com
 
 ## Objetivos del Proyecto
 
+- **Código original**: programa elaborado por el grupo API_lados
+- **Uso de herramientas vistas en el curso** 
 - **Aprendizaje Activo**: Facilitar el aprendizaje práctico de Python mediante la implementación de un juego interactivo.
 - **Mejora de Habilidades**: Desarrollar habilidades en el uso de estructuras de datos, manejo de matrices y algoritmos de búsqueda.
 
@@ -44,25 +47,20 @@ Este proyecto es una implementación de una Sopa de Letras en Python, creada com
 El programa de Sopa de Letras cuenta con las siguientes funcionalidades:
 
 - **Generación Automática**: Crea sopas de letras de
+- **Tamaño de la sopa de letras**: Matriz del tamaño de la sopa de letras (Min: 10x10, Max: 20x20), esta relacionado a la dificultad.
+- **Ingreso de las palabras**: Lista de coordenadas, Strings.
+- **Nivel de dificultad**: Asociado a cantidad de palabras, verticales, horizontales, diagonal. 3 niveles (Facil, Medio, dificil)
 
-_____
-Problema planteado: Construir una aplicación que emule una sopa de letras utilizando Python.
+Caracteristicas extra:
+  
+- **Cuenta regresiva**
+- **Sombreado o cambio visual de las palabras encontradas**
+- **Interfaz grafica con estructura**
+- **Posiblidad de ingresar palabras para generar la sopa de letras (a partir de un diccionario)**: Se puede cambiar las palabras dentro del codigo  
 
-Condiciones:
-
-+ Código original
-+ Uso de herramientas vistas en el curso
-+ Interacción y manejo a través de la consola
-+ Definidido por el usuario:
-+ Matriz del tamaño de la sopa de letras (Min: 10x10, Max: 30x30)   - (20x max)
-+ Ingreso de las palabras: Lista de coordenadas, Strings.
-+ Nivel de dificultad: Asociado a cantidad de palabras, verticales, horizontales, diagonal.
+_______________________
 
 
-Features extra:
 
-+ Cuenta regresiva
-+ Sombreado o cambio visual de las palabras encontradas
-+ Interfaz grafica con estructura
-+ Manejo de puntajes  -
-+ Posiblidad de ingresar palabras para generar la sopa de letras (a partir de un diccionario) 
+
+
