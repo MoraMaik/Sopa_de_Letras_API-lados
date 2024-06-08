@@ -4,20 +4,17 @@ _______________________
 1. Estructura del repositorio
 
 sopa_de_letras/
-├── README.md
-├── docs/
-│   ├── 01_introduccion.md
-│   ├── 02_instalacion.md     Sigue estos pasos para instalar y ejecutar el proyecto.
 
-│   ├── 03_estructura.md
-│   ├── 04_funcionalidades.md
-│   ├── 05_ejemplos.md (video)
-│   
-├── tests/
-│   ├── test_main.py
-│   └── ...
-├── requirements.txt
-└── .gitignore
+
+│   ├── 01_introduccion
+│   ├── 02_instalacion     Sigue estos pasos para instalar y ejecutar el proyecto.   (MICHAEL)
+
+│   ├── 03_estructura         (CAROLINA)
+
+│   ├── 04_funcionalidades           (ALEJANDRO)
+
+│   ├── 05_ejemplos (video)    (MICHAEL)
+
 
 
 2. Detalles archivos y carpetas
