@@ -67,10 +67,28 @@ _______________________
 
 # Estructura
 
-El código del proyecto se encuentra organizado en distintos niveles de dificultad como se mencionó anteriormente, por lo que cada uno de estos ( fácil, medio y difícil) tiene su estructura bien definida. Para poder explicarlo detalladamente a continuación encontrarás todos los ítems que en conjunto reflejan el cuerpo de la sopa de letras.
+El código del proyecto se encuentra organizado en distintos niveles de dificultad como se mencionó anteriormente, por lo que cada uno de estos ( fácil, medio y difícil) tiene su estructura bien definida. Para poder explicarlo detalladamente, a continuación encontrarás todos los ítems que en conjunto reflejan el cuerpo de la sopa de letras.
 
 
+**1. Importaciones**
 
+``` python
+import pygame
+import sys
+```
 
+Decidimos utilizar Pygame, la cual se carcateriza por ser una biblioteca que permite la realización de juegos en python, proporcionando funcionalidades como lo son gráficos, sonido y manejo de eventos.
 
+- Inicialización:
+``` python
+pygame.init()
+```
 
+- Creación de la ventana:
+``` python
+ventana = pygame.display.set_mode((ANCHO, ALTO))
+pygame.display.set_caption("Sopa de letras")
+```
+
+- 
+  
