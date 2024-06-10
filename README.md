@@ -62,9 +62,85 @@ _______________________
 
 # Instalacion
 
+Sigue estos pasos para instalar y ejecutar el proyecto
+
+## **Requisitos**
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+
++ Python 3.8+: La última versión de Python puede descargarse desde python.org o Microsoft Store.
++ pip: El gestor de paquetes de Python, que generalmente se incluye con Python 3.8+.
++ pygame: Biblioteca para crear aplicaciones multimedia en Python
+
+## **Instrucciones de Instalación**
+
+1. **Descarga o Clona el Repositorio**
+
+Puedes descargar el repositorio como un archivo ZIP desde GitHub o clonar el repositorio en tu máquina local:
 
 
+**Opción 1**: Descargar ZIP
 
++ Ubicate en el [Repositorio](http://https://github.com/MoraMaik/Sopa_de_Letras_API-lados "Repositorio")
+  
++ Haz clic en el botón "Code" y selecciona "Download ZIP".
++ Extrae el contenido del archivo ZIP en tu máquina local.
+
+**Opción 2**: Clonar el repositorio
+
++ Abre una terminal y ejecuta el siguiente comando:
+
+```code
+
+git clone https://github.com/MoraMaik/Sopa_de_Letras_API-lados.git
+
+```
+
+2. **Configura el Entorno Virtual (opcional pero recomendado)**
+
+Crea un entorno virtual para gestionar las dependencias del proyecto:
+
+```code
+
+python -m venv venv
+
+```
+
+Activa el entorno virtual:
+
++ En Windows:
+
+```code
+venv\Scripts\activate
+```
+
++ En MacOS y Linux:
+
+```code
+source venv/bin/activate
+```
+
+3. **Instala las Dependencias**
+
+Instala las dependencias necesarias (pygame, sys)  usando pip:
+
+```code
+pip install pygame
+```
+
+```code
+pip install sys
+```
+4. **Ejecuta el Programa**
+
+### Notas Adicionales
+
++ Si encuentras problemas con la instalación de Pygame en diferentes sistemas operativos, consulta la [documentación oficial de Pygame](http://https://www.pygame.org/docs/ "documentación oficial de Pygame")
+ para obtener instrucciones detalladas y específicas para tu sistema operativo.
+
++ Si el entorno virtual está activado, recuerda desactivarlo después de usarlo con el comando deactivate.
+
+
+_______________________
 # Estructura
 
 El código del proyecto se encuentra organizado en distintos niveles de dificultad como se mencionó anteriormente, por lo que cada uno de estos ( fácil, medio y difícil) tiene su estructura bien definida. Para poder explicarlo detalladamente, a continuación se encuentran todos los ítems que en conjunto reflejan el cuerpo de la sopa de letras.
