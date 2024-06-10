@@ -90,5 +90,46 @@ ventana = pygame.display.set_mode((ANCHO, ALTO))
 pygame.display.set_caption("Sopa de letras")
 ```
 
-- 
+- Carga de imágenes:
+``` python
+icono = pygame.image.load('house-solid.png')
+icono = pygame.transform.scale(icono, (30, 30))
+```
+
+- Manejo de eventos:
+``` python
+for evento in pygame.event.get():
+    if evento.type == pygame.QUIT:
+        pygame.quit()
+        sys.exit()
+```
+
+- Dibujo de la pantalla:
+``` python
+ventana.fill(COLOR_FONDO)
+pygame.draw.rect(ventana, COLOR_BOTONES, rect_facil, border_radius=10)
+ventana.blit(texto, (ANCHO // 2 - texto.get_width() // 2, 225 - texto.get_height() // 2))
+```
   
+- Actualizar en pantalla:
+``` python
+pygame.display.flip()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
