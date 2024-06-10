@@ -125,8 +125,29 @@ sys.exit()
 
 
 
+``` mermaid
+graph TD
+    A[Inicio] --> B[Importar pygame y sys]
+    B --> C[Inicializar Pygame]
+    C --> D[Definir dimensiones de la ventana]
+    D --> E[Definir colores]
+    E --> F[Cargar y transformar icono 'house']
+    F --> G[Cargar y transformar icono 'clock']
+    G --> H[Crear la ventana]
+    H --> I[Establecer el título de la ventana]
+    I --> J[Renderizar el título del juego]
 
-
+    B --> K[import pygame]
+    K --> L[import sys]
+    C --> M[pygame.init()]
+    D --> N[ANCHO = 1000\nALTO = 650]
+    E --> O[COLOR_FONDO = (153, 197, 181)\nCOLOR_BOTONES = (230, 230, 230)]
+    F --> P[icono = pygame.image.load('house-solid.png')\nicono = pygame.transform.scale(icono, (30, 30))]
+    G --> Q[clock = pygame.image.load('stopwatch-solid.png')\nclock = pygame.transform.scale(clock, (30, 30))]
+    H --> R[ventana = pygame.display.set_mode((ANCHO, ALTO))]
+    I --> S[pygame.display.set_caption("Sopa de letras")]
+    J --> T[titulo = pygame.font.SysFont("comicsansms", 48, bold=True).render("Sopa de letras", True, (255, 255, 255))]
+``` 
 
 
 
