@@ -116,7 +116,12 @@ ventana.blit(texto, (ANCHO // 2 - texto.get_width() // 2, 225 - texto.get_height
 pygame.display.flip()
 ```
 
+En cuánto a sys que se caracteriza por brindar herramientas para poder interactuar con pyhton, en este caso lo utilizamos exclusivamente para asegurarnos que el programa se cierre adecuadamente cuando el usuario quiera salir del programa y presione "X".
 
+- Salir del programa:
+``` python
+sys.exit()
+``` 
 
 
 
