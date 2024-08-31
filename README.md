@@ -1,5 +1,5 @@
 # Sopa de Letras | API-lados
-API-lados un grupo conformado por dos Ingenieros Civiles y un Ingeniero Químico presentan el desarrollo de su proyecto final de PdC con la fin de explicar el Programa trabajado durante el semestre 2024-1, el cual esta inspirado en crear Una Sopa de Letras
+API-lados un grupo conformado por dos Ingenieros Civiles y un Ingeniero Químico que buscan presentan el desarrollo y solucion de su *Proyecto Final* de la materia Progrmacion de Computadores, con el fin de explicar el Programa trabajado durante el semestre 2024-1, el cual, a grandes rasgos, esta inspirado en crear una aplicacion que emule una Sopa de Letras, usando *Python*.
 _______________________
 1. Estructura del repositorio
 
