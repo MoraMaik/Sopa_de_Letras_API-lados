@@ -1,5 +1,12 @@
 # Sopa de Letras | API-lados
-API-lados un grupo conformado por dos Ingenieros Civiles y un Ingeniero Químico que buscan presentan el desarrollo y solucion de su *Proyecto Final* de la materia Progrmacion de Computadores, con el fin de explicar el Programa trabajado durante el semestre 2024-1, el cual, a grandes rasgos, esta inspirado en crear una aplicacion que emule una Sopa de Letras, usando *Python*.
+
+API-lados es un grupo conformado por dos ingenieros civiles y un ingeniero químico que busca presentar el desarrollo y la solución de su Proyecto Final de la materia Programación de Computadores. El objetivo es explicar el programa trabajado durante el semestre 2024-1, el cual, a grandes rasgos, está inspirado en crear una aplicación que emule una **sopa de letras**, utilizando *Python*.
+
+<p align="center">
+  <a href="https://postimg.cc/rdT79scf">
+    <img src="https://i.postimg.cc/W4qjTqyc/Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg" alt="Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg">
+  </a>
+</p>
 _______________________
 1. Estructura del repositorio
 
@@ -32,13 +39,12 @@ _______________________
 
 ## Sopa de Letras en Python
 
-Este proyecto es una implementación de una Sopa de Letras en Python, creada como parte del curso de programacion de computadores dirigido por el Ingeniero Felipe Gonzales. La Sopa de Letras es un juego clásico en el que se deben encontrar palabras ocultas en una cuadrícula de letras. El objetivo principal de este proyecto es reforzar conceptos de programación aprendidos durante el curso, estructuras de datos, y algoritmos, a través de la construcción de una aplicación interactiva y entretenida.
+Este proyecto es una implementación de una Sopa de Letras en Python, creada como parte del curso de programacion de computadores dirigido por el Ingeniero Felipe Gonzales. La Sopa de Letras es un juego clásico en el que se deben encontrar palabras ocultas en una cuadrícula de letras. El objetivo principal de este proyecto es reforzar conceptos de programación aprendidos durante el curso, estructuras de datos, y algoritmos, de una manera interactiva.
 
 ## Objetivos del Proyecto
 
 - **Código original**: programa elaborado por el grupo API_lados
 - **Uso de herramientas vistas en el curso** 
-- **Aprendizaje Activo**: Facilitar el aprendizaje práctico de Python mediante la implementación de un juego interactivo.
 - **Mejora de Habilidades**: Desarrollar habilidades en el uso de estructuras de datos, manejo de matrices y algoritmos de búsqueda.
 
 
@@ -51,13 +57,12 @@ El programa de Sopa de Letras cuenta con las siguientes funcionalidades:
 - **Ingreso de las palabras**: Lista de coordenadas, Strings.
 - **Nivel de dificultad**: Asociado a cantidad de palabras, verticales, horizontales, diagonal. 3 niveles (Facil, Medio, dificil)
 
-Caracteristicas extra:
+*Caracteristicas extra*:
   
 - **Cuenta regresiva**
 - **Sombreado o cambio visual de las palabras encontradas**
 - **Interfaz grafica con estructura**
-- **Posiblidad de ingresar palabras para generar la sopa de letras (a partir de un diccionario)**: Se puede cambiar las palabras dentro del codigo  
-
+ 
 _______________________
 
 # Instalacion
@@ -73,7 +78,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
 ## **Instrucciones de Instalación**
 
-1. **Descarga o Clona el Repositorio**
+1. **Descarga el Repositorio**
 
 Puedes descargar el repositorio como un archivo ZIP desde GitHub o clonar el repositorio en tu máquina local:
 
@@ -85,41 +90,7 @@ Puedes descargar el repositorio como un archivo ZIP desde GitHub o clonar el rep
 + Haz clic en el botón "Code" y selecciona "Download ZIP".
 + Extrae el contenido del archivo ZIP en tu máquina local.
 
-**Opción 2**: Clonar el repositorio
-
-+ Abre una terminal y ejecuta el siguiente comando:
-
-```code
-
-git clone https://github.com/MoraMaik/Sopa_de_Letras_API-lados.git
-
-```
-
-2. **Configura el Entorno Virtual (opcional pero recomendado)**
-
-Crea un entorno virtual para gestionar las dependencias del proyecto:
-
-```code
-
-python -m venv venv
-
-```
-
-Activa el entorno virtual:
-
-+ En Windows:
-
-```code
-venv\Scripts\activate
-```
-
-+ En MacOS y Linux:
-
-```code
-source venv/bin/activate
-```
-
-3. **Instala las Dependencias**
+2. **Instala las Dependencias**
 
 Instala las dependencias necesarias (pygame, sys)  usando pip:
 
@@ -130,15 +101,35 @@ pip install pygame
 ```code
 pip install sys
 ```
-4. **Ejecuta el Programa**
 
-### Notas Adicionales
+3. Asegúrate de tener las Imágenes Necesarias
+
+Asegúrate de tener las imágenes `house-solid.png` y `stopwatch-solid.png` en el directorio raíz del proyecto. Si no las tienes, puedes descargarlas y guardarlas en el directorio del proyecto.
+
+## Ejecucion el Programa
+
+Una vez instaladas las dependencias, puedes ejecutar el programa de la siguiente manera:
+1. Ejecutar el Programa Principal
+
+Corre el archivo principal del proyecto para generar y visualizar la Sopa de Letras:
+```code
+python src/main.py
+```
+
+2. Interacción con el Programa
+
+Al ejecutar el programa, se abrirá una ventana con el menú principal donde podrás seleccionar el nivel de dificultad: Fácil, Medio o Difícil. Utiliza el mouse para interactuar con la interfaz y seleccionar las palabras en la sopa de letras.
+
+**Problemas Comunes y Soluciones**
++ Error al instalar dependencias: Asegúrate de que pip está actualizado ejecutando pip install --upgrade pip.
++ Imágenes no encontradas: Verifica que las imágenes `house-solid.png` y `stopwatch-solid.png` están en el directorio raíz del proyecto y que los nombres son correctos.
+
+Con estos pasos, deberías poder instalar y ejecutar el programa de Sopa de Letras en Python sin problemas. Si encuentras algún problema, no dudes en abrir un issue en el repositorio de GitHub.
+
+### Nota Adicional
 
 + Si encuentras problemas con la instalación de Pygame en diferentes sistemas operativos, consulta la [documentación oficial de Pygame](http://https://www.pygame.org/docs/ "documentación oficial de Pygame")
  para obtener instrucciones detalladas y específicas para tu sistema operativo.
-
-+ Si el entorno virtual está activado, recuerda desactivarlo después de usarlo con el comando deactivate.
-
 
 _______________________
 # Estructura
