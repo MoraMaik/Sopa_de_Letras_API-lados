@@ -13,9 +13,9 @@ _______________________
 sopa_de_letras/
 
 
-│   ├── 01_introduccion
+│   ├── 01_introducción
 
-│   ├── 02_instalacion     Sigue estos pasos para instalar y ejecutar el proyecto.   (MICHAEL)
+│   ├── 02_instalación     Sigue estos pasos para instalar y ejecutar el proyecto.   (MICHAEL)
 
 │   ├── 03_estructura         (CAROLINA)
 
