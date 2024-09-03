@@ -131,6 +131,12 @@ Con estos pasos, deberías poder instalar y ejecutar el programa de Sopa de Letr
 + Si encuentras problemas con la instalación de Pygame en diferentes sistemas operativos, consulta la [documentación oficial de Pygame](http://https://www.pygame.org/docs/ "documentación oficial de Pygame")
  para obtener instrucciones detalladas y específicas para tu sistema operativo.
 
+## Video tutorial
+
+
+https://github.com/user-attachments/assets/6521f5ae-832c-407b-a552-15b942868f47
+
+
 _______________________
 # Estructura
 
@@ -382,9 +388,10 @@ graph TD
   L --> B
 ```
 
+_______________________
+# Ejemplo de Interracion 
 
-
-
+https://github.com/user-attachments/assets/e5cd5412-511e-4d33-8b36-33d1aeb636ba
 
 
 
