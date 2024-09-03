@@ -169,12 +169,20 @@ COLOR_BOTONES = (230, 230, 230)  # Color de los botones
 **2. Creación de la ventana de juego**
 En esta sección nos encargamos de  configurar la ventana principal del juego y establecer los iconos y el título que aparecerán en la interfaz. Esta ventana será el espacio donde el jugador interactuará.
 
+
 ```mermaid
+
 graph TD
-  A[main()] --> B[Crear Ventana]
-  B --> C[Establecer Título de la Ventana]
-  C --> D[Configurar Iconos]
+
+    A[main()]
+    --> B[Crear Ventana]
+
+    B --> C[Establecer Titulo de la Ventana]
+
+    C --> D[Configurar Iconos]
+
 ```
+
 Las funciones se pueden encontrar a través del code cómo: 
 - Crear la ventana:
 ```python
@@ -194,12 +202,15 @@ icono = pygame.transform.scale(icono, (30, 30))  # Escala el icono
 La función main() es el punto de entrada del juego. Aquí se muestra el menú principal, donde el jugador puede seleccionar el nivel de dificultad. También maneja los eventos de usuario, como clics del mouse, que determinan la navegación hacia las funciones correspondientes de cada nivel.
 
 ```mermaid
+
 graph TD
+
   A[main()] --> B[Mostrar Menú Principal]
   B --> C[Detectar Eventos]
   C -->|Click en Fácil| D[facil()]
   C -->|Click en Medio| E[medio()]
   C -->|Click en Difícil| F[dificil()]
+
 ```
 Ejemplos: 
 - Definir la función principal:
@@ -327,7 +338,7 @@ graph TD
   A[Loop Principal] --> B[Captura de Eventos]
   B --> C[Actualizar Matriz de Letras]
   C --> D[Mostrar Estado del Juego]
-  D --> E[pygame.display.flip()]
+  D --> E[Actualizar Pantalla]
   E --> A
 ```
 Ejemplos: 
@@ -364,20 +375,23 @@ sys.exit()  # Sale del programa
 ```mermaid
 graph TD
   A[Inicio del Juego] --> B[main()]
-  B --> C{Seleccionar Dificultad}
-  C -->|Fácil| D[facil()]
-  C -->|Medio| E[medio()]
-  C -->|Difícil| F[dificil()]
-  D --> G[Loop de Juego Fácil]
+  B --> C[Seleccionar Dificultad]
+  C --> D[Facil()]
+  C --> E[Medio()]
+  C --> F[Dificil()]
+  D --> G[Loop de Juego Facil]
   E --> H[Loop de Juego Medio]
-  F --> I[Loop de Juego Difícil]
+  F --> I[Loop de Juego Dificil]
   G --> J[Verificar Palabras]
   H --> J
   I --> J
-  J --> K{Todas las Palabras Encontradas?}
-  K -->|Sí| L[Volver al Menú]
-  K -->|No| M[Continuar Bucle]
+  J --> K[Todas las Palabras Encontradas?]
+  K --> L[Volver al Menu]
+  K --> M[Continuar Bucle]
   L --> B
+
+
+
 ```
 
 
@@ -468,66 +482,6 @@ graph TD
 
 
 
-
-
-
-**1. Importaciones**
-
-``` python
-import pygame
-import sys
-```
-
-Decidimos utilizar Pygame, la cual se carcateriza por ser una biblioteca que permite la realización de juegos en python, proporcionando funcionalidades como lo son gráficos y manejo de eventos.
-
-- Inicialización:
-``` python
-pygame.init()
-```
-
-- Creación de la ventana:
-``` python
-ventana = pygame.display.set_mode((ANCHO, ALTO))
-pygame.display.set_caption("Sopa de letras")
-```
-
-- Carga de imágenes:
-``` python
-icono = pygame.image.load('house-solid.png')
-icono = pygame.transform.scale(icono, (30, 30))
-```
-
-- Manejo de eventos:
-``` python
-for evento in pygame.event.get():
-    if evento.type == pygame.QUIT:
-        pygame.quit()
-        sys.exit()
-```
-
-- Dibujo de la pantalla:
-``` python
-ventana.fill(COLOR_FONDO)
-pygame.draw.rect(ventana, COLOR_BOTONES, rect_facil, border_radius=10)
-ventana.blit(texto, (ANCHO // 2 - texto.get_width() // 2, 225 - texto.get_height() // 2))
-```
-  
-- Actualizar en pantalla:
-``` python
-pygame.display.flip()
-```
-
-En cuánto a sys que se caracteriza por brindar herramientas para poder interactuar con pyhton se utilizó exclusivamente para asegurar que el programa se cierre adecuadamente cuando el usuario quiera salir de este y presione "X".
-
-- Salir del programa:
-``` python
-sys.exit()
-``` 
-
-
-
-``` mermaid
-``` 
 
 
 
