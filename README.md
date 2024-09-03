@@ -171,16 +171,10 @@ En esta sección nos encargamos de  configurar la ventana principal del juego y 
 
 
 ```mermaid
-
 graph TD
-
-    A[main()]
-    --> B[Crear Ventana]
-
-    B --> C[Establecer Titulo de la Ventana]
-
-    C --> D[Configurar Iconos]
-
+  A[main] --> B[Crear Ventana]
+  B --> C[Establecer Titulo de la Ventana]
+  C --> D[Configurar Iconos]
 ```
 
 Las funciones se pueden encontrar a través del code cómo: 
