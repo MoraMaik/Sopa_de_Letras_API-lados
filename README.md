@@ -245,14 +245,14 @@ Cada una de estas funciones se encarga de un nivel específico de dificultad. Aq
 
 ```mermaid
 graph TD
-  A[facil()/medio()/dificil()] --> B[Inicializar Diccionario de Palabras]
+  A[facil/medio/dificil] --> B[Inicializar Diccionario de Palabras]
   B --> C[Inicializar Matriz de Letras]
   C --> D[Iniciar Loop Principal]
   D --> E[Capturar Eventos de Usuario]
-  E -->|Mouse Down| F[inicial_pos()]
-  E -->|Mouse Up| G[final_pos()]
-  G --> H[obtener_palabra_seleccionada()]
-  H -->|Palabra Encontrada| I[Actualizar Estado]
+  E --> F[Mouse Down inicial_pos]
+  E --> G[Mouse Up final_pos]
+  G --> H[obtener_palabra_seleccionada]
+  H --> I[Palabra Encontrada Actualizar Estado]
   D --> J[Actualizar Pantalla]
 ```
 Las funciones utilizadas se pueden encontrar de la siguiente forma:
