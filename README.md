@@ -65,7 +65,7 @@ El programa de Sopa de Letras cuenta con las siguientes funcionalidades:
  
 _______________________
 
-# Instalacion
+# Instalación
 
 Sigue estos pasos para instalar y ejecutar el proyecto
 
@@ -142,7 +142,8 @@ _______________________
 El código del proyecto se encuentra organizado en distintos niveles de dificultad como se mencionó anteriormente, por lo que cada uno de estos ( fácil, medio y difícil) tiene su estructura bien definida. Para poder explicarlo detalladamente, a continuación se encuentran todos los ítems que en conjunto reflejan el cuerpo de la sopa de letras.
 
 
-**1. Importación de módulos y conficguración inicial**
+**1. Importación de módulos y configuración inicial**
+
 Para este ítem importamos las bibliotecas necesarias y configuramos las variables globales que se utilizarán en todo el juego, como las dimensiones de la ventana, los colores y los iconos. A continuación un diagrama de flujo para su comprensión
 ```mermaid
 graph TD
@@ -172,6 +173,7 @@ COLOR_BOTONES = (230, 230, 230)  # Color de los botones
 ```
 
 **2. Creación de la ventana de juego**
+
 En esta sección nos encargamos de  configurar la ventana principal del juego y establecer los iconos y el título que aparecerán en la interfaz. Esta ventana será el espacio donde el jugador interactuará.
 
 
@@ -198,6 +200,7 @@ icono = pygame.transform.scale(icono, (30, 30))  # Escala el icono
 ```
 
 **3. Función principal `main()`**
+
 La función main() es el punto de entrada del juego. Aquí se muestra el menú principal, donde el jugador puede seleccionar el nivel de dificultad. También maneja los eventos de usuario, como clics del mouse, que determinan la navegación hacia las funciones correspondientes de cada nivel.
 
 ```mermaid
@@ -240,6 +243,7 @@ pygame.display.flip()  # Actualizar la pantalla
 ```
 
 **4. Funciones de dificultad: `facil()`, `medio()`, `dificil()`**
+
 Cada una de estas funciones se encarga de un nivel específico de dificultad. Aquí se define la matriz de letras para la sopa de letras y se gestiona la interacción del jugador, como seleccionar letras en la matriz y verificar si forman una palabra válida.
 
 ```mermaid
@@ -285,6 +289,7 @@ pygame.display.flip()  # Actualizar la pantalla
 ```
 
 **5. Funciones auxiliares:**
+
 Las funciones auxiliares ayudan a manejar la lógica de la selección de letras en la matriz. Determinan las posiciones inicial y final del mouse, calculan las direcciones de selección y verifican si las letras seleccionadas forman una palabra válida.
 
 ```mermaid
@@ -327,6 +332,7 @@ def obtener_palabra_seleccionada(inicial, final, matriz, palabras, encontradas):
 ```
 
 **6. Ciclo de juego y actualización de pantalla:**
+
 El ciclo de juego es crucial para mantener el juego en funcionamiento. Captura los eventos, actualiza la interfaz y refresca la pantalla continuamente para reflejar cualquier cambio en la matriz de letras y el estado de las palabras encontradas.
  
 ```mermaid
@@ -352,6 +358,7 @@ pygame.display.flip()  # Refresca la pantalla
 ```
 
 **7. Finalización juego:**
+
 Cuando el jugador decide salir del juego, es importante que el programa se cierre correctamente, liberando todos los recursos utilizados. Esto se logra mediante la función `pygame.quit()` seguida de `sys.exit()`, que asegura una salida limpia del programa.
 ```mermaid
 graph TD
@@ -368,6 +375,7 @@ pygame.quit()  # Cierra Pygame
 sys.exit()  # Sale del programa
 ```
 *DIAGRAMA GENERAL DEL JUEGO*
+
 ```mermaid
 graph TD
   A[Inicio del Juego] --> B[main]
