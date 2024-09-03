@@ -159,7 +159,7 @@ graph TD
   D --> E[Configurar Ventana]
   E --> F[Configurar Colores e Iconos]
 ```
-A través del code se encontrarán funciones que cumplen con lo anterior de la siguiente forma:
+Ejemplos:
 
 - Importación de módulos:
 ```python
@@ -190,7 +190,7 @@ graph TD
   C --> D[Configurar Iconos]
 ```
 
-Las funciones se pueden encontrar a través del code cómo: 
+Ejemplos: 
 - Crear la ventana:
 ```python
 ventana = pygame.display.set_mode((ANCHO, ALTO))  # Crea la ventana del juego
@@ -264,7 +264,7 @@ graph TD
   H --> I[Palabra Encontrada Actualizar Estado]
   D --> J[Actualizar Pantalla]
 ```
-Las funciones utilizadas se pueden encontrar de la siguiente forma:
+Ejemplos:
 - Inicializar diccionario de palabras:
 ```python
 palabras = {"TENIS": False, "PADEL": False, ...}  # Palabras en modo fácil
@@ -382,6 +382,7 @@ sys.exit()  # Sale del programa
 ```
 *DIAGRAMA GENERAL DEL JUEGO*
 
+Para concluir con la estructura tenemos su diagrama general, el cual reúne todos los ítems anteriormente explicados:
 ```mermaid
 graph TD
   A[Inicio del Juego] --> B[main]
