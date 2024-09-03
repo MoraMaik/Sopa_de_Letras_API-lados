@@ -327,7 +327,7 @@ def obtener_palabra_seleccionada(inicial, final, matriz, palabras, encontradas):
         encontradas.append((inicial, final))
 ```
 
-**7. Ciclo de juego y actualización de pantalla:**
+**6. Ciclo de juego y actualización de pantalla:**
 El ciclo de juego es crucial para mantener el juego en funcionamiento. Captura los eventos, actualiza la interfaz y refresca la pantalla continuamente para reflejar cualquier cambio en la matriz de letras y el estado de las palabras encontradas.
  
 ```mermaid
@@ -352,12 +352,12 @@ while True:
 pygame.display.flip()  # Refresca la pantalla
 ```
 
-**8. Finalización juego:**
+**7. Finalización juego:**
 Cuando el jugador decide salir del juego, es importante que el programa se cierre correctamente, liberando todos los recursos utilizados. Esto se logra mediante la función `pygame.quit()` seguida de `sys.exit()`, que asegura una salida limpia del programa.
 ```mermaid
 graph TD
-  A[Usuario Decide Salir] --> B[pygame.quit()]
-  B --> C[sys.exit()]
+  A[Usuario Decide Salir] --> B[pygame.quit]
+  B --> C[sys.exit]
 ```
 Ejemplos:
 - Cerrar pygame:
