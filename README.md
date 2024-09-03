@@ -290,12 +290,12 @@ Las funciones auxiliares ayudan a manejar la lógica de la selección de letras 
 
 ```mermaid
 graph TD
-  A[inicial_pos()] --> B[Detectar Posición Inicial]
+  A[inicial_pos] --> B[Detectar Posición Inicial]
   B --> C[Esperar Posición Final]
-  C --> D[final_pos()]
+  C --> D[final_pos]
   D --> E[Determinar Dirección de la Selección]
-  E --> F[obtener_palabra_seleccionada()]
-  F -->|Palabra Válida| G[Actualizar Diccionario]
+  E --> F[Obtener palabra seleccionada]
+  F --> G[Palabra Válida Actualizar Diccionario]
   G --> H[Marcar Palabra como Encontrada]
 ```
 Ejemplos:
