@@ -111,7 +111,7 @@ pip install sys
 
 Asegúrate de tener las imágenes `house-solid.png` y `stopwatch-solid.png` en el directorio raíz del proyecto. Si no las tienes, puedes descargarlas y guardarlas en el directorio del proyecto.
 
-## Ejecucion el Programa
+## Ejecución del Programa
 
 Una vez instaladas las dependencias, puedes ejecutar el programa de la siguiente manera:
 1. Ejecutar el Programa Principal
