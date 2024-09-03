@@ -2,6 +2,12 @@
 
 API-lados es un grupo conformado por dos ingenieros civiles y un ingeniero químico que busca presentar el desarrollo y la solución de su Proyecto Final de la materia Programación de Computadores. El objetivo es explicar el programa trabajado durante el semestre 2024-1, el cual, a grandes rasgos, está inspirado en crear una aplicación que emule una **sopa de letras**, utilizando *Python*.
 
+Documento de Identidad  | Nombres y Apellidos  | Carrera 
+------------- | -------------| -------------
+1052837889 | Angie Carolina Salazar Lara | Ing. Civil
+1086774311 | Michael Kaleth Mora Mejia | Ing. Civil
+1000364014 | Alejandro Urrego Valencia | Ing. QuÍmica
+
 <p align="center">
   <a href="https://postimg.cc/rdT79scf">
     <img src="https://i.postimg.cc/W4qjTqyc/Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg" alt="Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg">
