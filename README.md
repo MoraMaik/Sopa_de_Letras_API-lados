@@ -371,11 +371,11 @@ sys.exit()  # Sale del programa
 *DIAGRAMA GENERAL DEL JUEGO*
 ```mermaid
 graph TD
-  A[Inicio del Juego] --> B[main()]
+  A[Inicio del Juego] --> B[main]
   B --> C[Seleccionar Dificultad]
-  C --> D[Facil()]
-  C --> E[Medio()]
-  C --> F[Dificil()]
+  C --> D[Facil]
+  C --> E[Medio]
+  C --> F[Dificil]
   D --> G[Loop de Juego Facil]
   E --> H[Loop de Juego Medio]
   F --> I[Loop de Juego Dificil]
@@ -386,9 +386,6 @@ graph TD
   K --> L[Volver al Menu]
   K --> M[Continuar Bucle]
   L --> B
-
-
-
 ```
 
 
