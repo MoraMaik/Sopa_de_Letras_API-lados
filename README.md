@@ -202,15 +202,12 @@ icono = pygame.transform.scale(icono, (30, 30))  # Escala el icono
 La función main() es el punto de entrada del juego. Aquí se muestra el menú principal, donde el jugador puede seleccionar el nivel de dificultad. También maneja los eventos de usuario, como clics del mouse, que determinan la navegación hacia las funciones correspondientes de cada nivel.
 
 ```mermaid
-
 graph TD
-
-  A[main()] --> B[Mostrar Menú Principal]
+  A[main] --> B[Mostrar Menú Principal]
   B --> C[Detectar Eventos]
-  C -->|Click en Fácil| D[facil()]
-  C -->|Click en Medio| E[medio()]
-  C -->|Click en Difícil| F[dificil()]
-
+  C --> D[Click en Fácil]
+  C --> E[Click en Medio]
+  C --> F[Click en Difícil]
 ```
 Ejemplos: 
 - Definir la función principal:
