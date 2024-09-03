@@ -85,8 +85,7 @@ Puedes descargar el repositorio como un archivo ZIP desde GitHub o clonar el rep
 
 **Opción 1**: Descargar ZIP
 
-+ Ubicate en el [Repositorio](http://https://github.com/MoraMaik/Sopa_de_Letras_API-lados "Repositorio")
-  
++ Ubicate en el [Repositorio]([http://localhost/](https://github.com/MoraMaik/Sopa_de_Letras_API-lados)) 
 + Haz clic en el botón "Code" y selecciona "Download ZIP".
 + Extrae el contenido del archivo ZIP en tu máquina local.
 
