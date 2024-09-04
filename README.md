@@ -401,9 +401,75 @@ graph TD
   K --> M[Continuar Bucle]
   L --> B
 ```
+_______________________
+# Funcionalidades:
+
+## Pygame y sus ventajas
+
+Pygame es una biblioteca de Python utilizada en varios sistemas operativos la cual sirve para crear videojuegos en 2D. Ofrece una variedad de funcionalidades las cuales aprovechamos para el desarrollo de la sopa de letras, las cuales son:
+
+1. Gestión de gráficos: Pygame permite cargar y mostrar imágenes, dibujar formas y textos en la pantalla.
+
+```python
+rect_facil = pygame.Rect((ANCHO // 2 - 100), 200, 200, 50)  # Botón fácil
+rect_medio = pygame.Rect((ANCHO // 2 - 100), 290, 200, 50)  # Botón medio
+rect_dificil = pygame.Rect((ANCHO // 2 - 100), 380, 200, 50)  # Botón difícil
+```
+
+
+2. Entrada del usuario: Pygame permite detectar eventos de teclado y mouse, como presiones de teclas y clics.
+
+```python
+for evento in pygame.event.get():
+    if evento.type == pygame.QUIT:
+        pygame.quit()
+        sys.exit()
+    elif evento.type == pygame.MOUSEBUTTONDOWN:
+        if rect_facil.collidepoint(evento.pos):
+            facil()
+        if rect_medio.collidepoint(evento.pos):
+            medio()
+        if rect_dificil.collidepoint(evento.pos):
+            dificil()
+```
+
+
+3. Gestión de ventanas: Pygame permite crear y manipular ventanas para mostrar el juego.
+
+```python
+def main():
+    ventana = pygame.display.set_mode((ANCHO, ALTO))  # Crear la ventana
+```
+
+4. Gestión de tiempo: Pygame ofrece funciones para controlar y medir el tiempo en el juego, como medir el tiempo transcurrido o crear temporizadores.
+
+```python
+ start_time = 60
+    start_ticks = pygame.time.get_ticks()
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 _______________________
-# Ejemplo de Interracion 
+# Ejemplo de Interración 
 
 https://github.com/user-attachments/assets/e5cd5412-511e-4d33-8b36-33d1aeb636ba
 
