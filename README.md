@@ -13,32 +13,6 @@ Documento de Identidad  | Nombres y Apellidos  | Carrera
     <img src="https://i.postimg.cc/W4qjTqyc/Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg" alt="Whats-App-Image-2024-02-28-at-9-47-06-AM.jpg">
   </a>
 </p>
-_______________________
-1. Estructura del repositorio
-
-sopa_de_letras/
-
-
-│   ├── 01_introducción
-
-│   ├── 02_instalación     Sigue estos pasos para instalar y ejecutar el proyecto.   (MICHAEL)
-
-│   ├── 03_estructura         (CAROLINA)
-
-│   ├── 04_funcionalidades           (ALEJANDRO)
-
-│   ├── 05_ejemplos (video)    (MICHAEL)
-
-
-
-2. Detalles archivos y carpetas
-   
-Título del proyecto
-Descripción breve
-Características principales
-Guía de instalación rápida
-Ejemplo de uso
-Enlaces a documentación detallada
 
 _______________________
 # Introducción
