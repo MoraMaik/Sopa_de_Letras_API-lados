@@ -17,9 +17,38 @@ Documento de Identidad  | Nombres y Apellidos  | Carrera
 _______________________
 # Introducción
 
-## Sopa de Letras en Python
-
 Este proyecto es una implementación de una Sopa de Letras en Python, creada como parte del curso de programacion de computadores dirigido por el Ingeniero Felipe Gonzales. La Sopa de Letras es un juego clásico en el que se deben encontrar palabras ocultas en una cuadrícula de letras. El objetivo principal de este proyecto es reforzar conceptos de programación aprendidos durante el curso, estructuras de datos, y algoritmos, de una manera interactiva.
+
+## Definicion de Alternativa
+
+La alternativa de "Sopa de letras" presentada se puede definir como un juego interactivo digital donde el jugador busca palabras escondidas en una cuadrícula de letras. Utilizando **Pygame** como motor de gráficos, esta implementación permite elegir entre tres niveles de dificultad, interactuar mediante clics del ratón y seleccionar palabras directamente en la cuadrícula.
+
+### Definición:
+
+1. Interfaz gráfica mediante Pygame:
+
++ La alternativa utiliza **Pygame** para generar la ventana de juego, gestionar eventos como clics y entradas del ratón, y representar gráficamente tanto las letras de la cuadrícula como los botones de selección de nivel. Siendo Pygame el mas adecuado gracias a la simplicidad para gestionar gráficos en 2D y eventos de usuario.
+
+2. Niveles de dificultad ajustables:
+
++ Se ofrecen tres niveles de dificultad: fácil, medio, y difícil, cada uno con una cuadrícula de tamaño diferente y con una lista de palabras escondidas acorde a la dificultad. La variación de dificultad se logra cambiando el tamaño de la cuadrícula y el número de palabras a encontrar.
+
+3. Interacción mediante clics y arrastre:
+
++ El usuario selecciona palabras al hacer clic y arrastrar el ratón sobre las letras de la cuadrícula. Este tipo de interacción simula el proceso de selección manual de palabras en un juego de sopa de letras tradicional.
+
+4. Juego basado en listas de palabras temáticas:
+
++ En cada nivel, las palabras a encontrar pertenecen a un tema determinado. Por ejemplo, el nivel fácil incluye palabras relacionadas con deportes, el nivel medio incluye artistas y escritores, y el nivel difícil incluye nombres de ciudades.
+
+5. Opciones visuales y estilísticas:
+
++ La cuadrícula de letras se resalta visualmente cuando el usuario selecciona palabras, y los botones de nivel están diseñados con rectángulos y texto estilizado usando fuentes personalizadas, lo que mejora la experiencia visual.
+
+6. Funcionalidad de cronómetro en el nivel -difícil- :
+
++ Un temporizador limita el tiempo para encontrar todas las palabras en el nivel más difícil, añadiendo un elemento de desafío adicional. Esto simula una presión similar a los juegos tradicionales de sopa de letras cronometrados.
+
 
 ## Objetivos del Proyecto
 
