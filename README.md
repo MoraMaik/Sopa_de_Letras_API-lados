@@ -65,7 +65,7 @@ La alternativa de "Sopa de letras" presentada se puede definir como un juego int
 
 El programa de Sopa de Letras cuenta con las siguientes funcionalidades:
 
-- **Generación Automática**: Crea sopas de letras de
+- **Generación Automática**:  Crea sopas de letras de manera aleatoria, colocando palabras en posiciones horizontales, verticales y diagonales en diversas direcciones.
 - **Tamaño de la sopa de letras**: Matriz del tamaño de la sopa de letras (Min: 10x10, Max: 20x20), esta relacionado a la dificultad.
 - **Ingreso de las palabras**: Lista de coordenadas, Strings.
 - **Nivel de dificultad**: Asociado a cantidad de palabras, verticales, horizontales, diagonal. 3 niveles (Facil, Medio, dificil)
