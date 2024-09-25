@@ -418,9 +418,10 @@ Pygame es una biblioteca de Python utilizada en varios sistemas operativos la cu
 1. Gestión de gráficos: Pygame permite cargar y mostrar imágenes, dibujar formas y textos en la pantalla.
 
 ```python
-rect_facil = pygame.Rect((ANCHO // 2 - 100), 200, 200, 50)  # Botón fácil
-rect_medio = pygame.Rect((ANCHO // 2 - 100), 290, 200, 50)  # Botón medio
-rect_dificil = pygame.Rect((ANCHO // 2 - 100), 380, 200, 50)  # Botón difícil
+rect = pygame.Rect(ANCHO // 2 = 300, 20, 600, 600)
+
+pygame.draw.circle(temp_surface, (255, 0, 0, 128), (x1 * 60 + 30, y1 * 60 + 30), 14)
+
 ```
 
 
