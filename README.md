@@ -300,8 +300,35 @@ for evento in pygame.event.get():
 ```python
 pygame.display.flip()  # Actualizar la pantalla
 ```
+**5. Explicación matriz aleatoria**
 
-**5. Funciones auxiliares:**
+```mermaid
+graph TD
+    A[Generar Matriz Aleatoria] --> B[Seleccionar Palabra a Insertar]
+    B --> C{Dirección}
+    C --> D[Horizontal]
+    C --> E[Vertical]
+    
+    D --> F[Seleccionar Fila Aleatoria]
+    F --> G[Seleccionar Columna Inicial Aleatoria]
+    G --> H[Insertar Palabra en la Fila]
+    
+    E --> I[Seleccionar Columna Aleatoria]
+    I --> J[Seleccionar Fila Inicial Aleatoria]
+    J --> K[Insertar Palabra en la Columna]
+    
+    H --> L[Matriz Actualizada]
+    K --> L[Matriz Actualizada]
+```
+1. Generar Matriz Aleatoria: Se genera una matriz con letras aleatorias.
+2. Seleccionar Palabra a Insertar: El sistema selecciona una palabra que se quiere insertar en la matriz.
+3. Elegir Dirección: Se decide aleatoriamente si la palabra se insertará de forma horizontal o vertical.
+3. Si la palabra se inserta de manera horizontal, se selecciona una fila aleatoria y una columna inicial aleatoria dentro de esa fila, asegurándose de que haya espacio suficiente para la palabra.
+4. Si la palabra se inserta de manera vertical, se selecciona una columna aleatoria y una fila inicial aleatoria, respetando también el espacio necesario.
+5. Insertar Palabra: Dependiendo de la dirección, la palabra se coloca en la fila o columna correspondiente.
+6. Matriz Actualizada: Después de insertar la palabra, la matriz queda actualizada con las nuevas letras.
+   
+**6. Funciones auxiliares:**
 
 Las funciones auxiliares ayudan a manejar la lógica de la selección de letras en la matriz. Determinan las posiciones inicial y final del mouse, calculan las direcciones de selección y verifican si las letras seleccionadas forman una palabra válida.
 
@@ -344,7 +371,7 @@ def obtener_palabra_seleccionada(inicial, final, matriz, palabras, encontradas):
         encontradas.append((inicial, final))
 ```
 
-**6. Ciclo de juego y actualización de pantalla:**
+**7. Ciclo de juego y actualización de pantalla:**
 
 El ciclo de juego es crucial para mantener el juego en funcionamiento. Captura los eventos, actualiza la interfaz y refresca la pantalla continuamente para reflejar cualquier cambio en la matriz de letras y el estado de las palabras encontradas.
  
