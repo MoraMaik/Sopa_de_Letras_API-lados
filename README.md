@@ -61,7 +61,7 @@ La alternativa de "Sopa de letras" presentada se puede definir como un juego int
 - **Mejora de Habilidades**: Desarrollar habilidades en el uso de estructuras de datos, manejo de matrices y algoritmos de búsqueda.
 
 
-## Funcionalidades del Programa
+## Funcionalidades generales del Programa
 
 El programa de Sopa de Letras cuenta con las siguientes funcionalidades:
 
