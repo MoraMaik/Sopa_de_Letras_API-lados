@@ -29,24 +29,28 @@ La alternativa de "Sopa de letras" presentada se puede definir como un juego int
 
 + La alternativa utiliza **Pygame** para generar la ventana de juego, gestionar eventos como clics y entradas del ratón, y representar gráficamente tanto las letras de la cuadrícula como los botones de selección de nivel. Siendo Pygame el mas adecuado gracias a la simplicidad para gestionar gráficos en 2D y eventos de usuario.
 
-2. Niveles de dificultad ajustables:
+2. Generación aleatoria de matrices de letras:
+
++ El programa genera dinámicamente una matriz de letras aleatorias en la cuadrícula del juego, asegurando que las palabras ocultas se distribuyan de manera estratégica en diferentes direcciones. Los espacios restantes se llenan con letras generadas aleatoriamente, manteniendo una distribución equilibrada y evitando patrones predecibles. Esta aleatorización añade variabilidad a cada partida, haciendo que el juego sea único cada vez que se inicia, y evitando que los jugadores memoricen las soluciones.
+
+3. Niveles de dificultad ajustables:
 
 + Se ofrecen tres niveles de dificultad: fácil, medio, y difícil, cada uno con una cuadrícula de tamaño diferente y con una lista de palabras escondidas acorde a la dificultad. La variación de dificultad se logra cambiando el tamaño de la cuadrícula y el número de palabras a encontrar.
 
-3. Interacción mediante clics y arrastre:
+4. Interacción mediante clics y arrastre:
 
 + El usuario selecciona palabras al hacer clic y arrastrar el ratón sobre las letras de la cuadrícula. Este tipo de interacción simula el proceso de selección manual de palabras en un juego de sopa de letras tradicional.
 
-4. Juego basado en listas de palabras temáticas:
+5. Juego basado en listas de palabras temáticas:
 
 + En cada nivel, las palabras a encontrar pertenecen a un tema determinado. Por ejemplo, el nivel fácil incluye palabras relacionadas con deportes, el nivel medio incluye artistas y escritores, y el nivel difícil incluye nombres de ciudades.
 
-5. Opciones visuales y estilísticas:
+6. Opciones visuales y estilísticas:
 
 + La cuadrícula de letras se resalta visualmente cuando el usuario selecciona palabras, y los botones de nivel están diseñados con rectángulos y texto estilizado usando fuentes personalizadas, lo que mejora la experiencia visual.
 
-6. Funcionalidad de cronómetro en el nivel -difícil- :
-
+7. Funcionalidad de cronómetro en el nivel -difícil- :
+   
 + Un temporizador limita el tiempo para encontrar todas las palabras en el nivel más difícil, añadiendo un elemento de desafío adicional. Esto simula una presión similar a los juegos tradicionales de sopa de letras cronometrados.
 
 
